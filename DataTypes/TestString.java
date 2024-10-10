@@ -51,7 +51,14 @@ public class TestString {
           System.out.println(name.isEmpty());// Checks String is empty or not
           System.out.println(name.isBlank());// Checks String is blank or not
           System.out.println(name.indexOf('s'));// Returns the index of given char.
-          System.out.println(name.lastIndexOf('h'));// Returns the last index of given char. / String
+          System.out.println(name.lastIndexOf('h'));
+          // Returns the last index of given char. / String
+          int a = 10;
+          String Str = String.valueOf(a);
+          System.out.println(Str);// Str is string now it have all the string methods
+
+          String formattedStr = String.format("My name is %s and I am %d years old.", "Dev", 22);
+          System.out.println(formattedStr);
 
      }
 }
