@@ -26,7 +26,7 @@
 13. `String.format():` Creates a formatted string with specified placeholders.
   * Example: String.format("Name: %s, Age: %d", "Dev", 22) → "Name: Dev, Age: 22"
 14. `substring(start)` and `substring(start, end):` Extracts a portion of the string from the specified start index to the end index.
-  * Example: "hello".substring(1, 4) → "ell"
-*Important Notes:*
+  * Example: "hello".substring(1, 4) → "ell"<br/>
+### Important Notes:
   - **String Comparison:** Use .equals() for comparing content, and == for comparing references (memory addresses).
   - **String Methods:** Many string methods are immutable, meaning they do not change the original string, but return a new one.
