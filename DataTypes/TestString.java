@@ -34,10 +34,13 @@ public class TestString {
           // System.out.println(name.compareToIgnoreCase(name3));// Return difference with
           // ASCII value, Here R-82,H-72
           // ,R-H=10
-          String str = "Hello World";
-          System.out.println(str.substring(6));// World
+          String str = "    Hello World ";
+          // System.out.println(str.substring(6));// World
           // Prints the parts of the String
-          System.out.println(str.substring(6, 9));// Wor
+          // System.out.println(str.substring(6, 9));// Wor
           // Prints the parts of the String ,end index not included
+          System.out.println(str.toUpperCase());// Converts to UpperCase //HELLO WORLD
+          System.out.println(str.toLowerCase());// Converts to LowerCase //hello world
+          System.out.println(str.trim()); // Remove Space from start & End of String
      }
 }
