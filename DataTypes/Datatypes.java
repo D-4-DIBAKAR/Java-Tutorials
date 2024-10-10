@@ -1,4 +1,4 @@
-package Basics;
+package DataTypes;
 
 /**
  * This class demonstrates the various data types available in Java.
