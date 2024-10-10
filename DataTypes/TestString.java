@@ -48,6 +48,10 @@ public class TestString {
           System.out.println(name.contains("Roy"));// Check requested String Present or not
           System.out.println(name.startsWith("Av"));// Checks preceded(prefix) with or not
           System.out.println(name.endsWith("oy"));// Checks ends(suffix) with or not
+          System.out.println(name.isEmpty());// Checks String is empty or not
+          System.out.println(name.isBlank());// Checks String is blank or not
+          System.out.println(name.indexOf('s'));// Returns the index of given char.
+          System.out.println(name.lastIndexOf('h'));// Returns the last index of given char. / String
 
      }
 }
