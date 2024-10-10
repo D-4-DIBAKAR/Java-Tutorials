@@ -42,5 +42,10 @@ public class TestString {
           System.out.println(str.toUpperCase());// Converts to UpperCase //HELLO WORLD
           System.out.println(str.toLowerCase());// Converts to LowerCase //hello world
           System.out.println(str.trim()); // Remove Space from start & End of String
+          String name = "Avinash Roy";
+          System.out.println(name.replace("Roy", "Sharma"));
+          // Replace Part of the String which Matches the target string
+          System.out.println(name.contains("Roy"));// Check requested String Present or not
+
      }
 }
