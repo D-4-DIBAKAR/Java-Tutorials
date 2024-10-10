@@ -39,17 +39,3 @@ public class Variable {
           System.out.println(a + " " + b); // Outputs: 10 2.5
      }
 }
-/*
- * Key Points on Variables:
- * Case Sensitivity: Variable names are case-sensitive, meaning age, Age, and
- * AGE are all different variables.
- * Valid Characters: Variable names can contain letters, digits, dollar signs
- * ($), and underscores (_).
- * Starting Characters: Variable names must start with a letter, $, or _. They
- * cannot start with a number.
- * Reserved Keywords: Java keywords (like int, public, etc.) cannot be used as
- * variable names.
- * Variable Types:
- * int: For integers (whole numbers).
- * double: For floating-point numbers (decimal values).
- */
