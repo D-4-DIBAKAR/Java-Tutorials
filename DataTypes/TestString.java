@@ -46,6 +46,7 @@ public class TestString {
           System.out.println(name.replace("Roy", "Sharma"));
           // Replace Part of the String which Matches the target string
           System.out.println(name.contains("Roy"));// Check requested String Present or not
+          System.out.println(name.startsWith("Av"));// Checks preceded(prefix) with or not
 
      }
 }
